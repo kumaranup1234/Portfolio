@@ -7,11 +7,11 @@ const Projects = () => {
     const project1 = {
             image: image,
             title: 'Featured Project',
-            name: 'Vanghee',
-            description: 'Vanghee is a B2B fintech start-up that facilitates Connected Banking for businesses & institutions of all sizes and at the same time helps Banks in acquiring and deepening customer relationships.',
-            techStack: ['Visual Code', 'HTML/CSS', 'Bootstrap', 'Angular'],
-            githubLink: '',
-            liveLink: ''
+            name: 'Notes App',
+            description: 'Notes is a B2B fintech start-up that facilitates Connected Banking for businesses & institutions of all sizes and at the same time helps Banks in acquiring and deepening customer relationships.',
+            techStack: ['MongoDB', 'React', 'Express', 'Node'],
+            githubLink: 'https://github.com/kumaranup1234/Notes-App',
+            liveLink: 'https://notes-app-frontend-navy.vercel.app/'
         }
     return (
         <>

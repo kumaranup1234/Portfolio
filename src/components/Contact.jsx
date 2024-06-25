@@ -2,6 +2,7 @@ import myImage from "../assets/anup.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faMapMarkerAlt } from "@fortawesome/free-solid-svg-icons";
 import { faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faAsterisk } from '@fortawesome/free-solid-svg-icons';
 import React from "react";
 
 const Contact = () => {
@@ -63,7 +64,7 @@ const Contact = () => {
                     >
                         <div className="mb-6">
                             <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
-                                Name
+                                Name<FontAwesomeIcon icon={faAsterisk} className="w-2 h-2 text-red-700 mb-0.5" />
                             </label>
                             <input
                                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -76,7 +77,7 @@ const Contact = () => {
                         </div>
                         <div className="mb-6">
                             <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="email">
-                                Email
+                                Email<FontAwesomeIcon icon={faAsterisk} className="w-2 h-2 text-red-700 mb-0.5" />
                             </label>
                             <input
                                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
@@ -89,7 +90,7 @@ const Contact = () => {
                         </div>
                         <div className="mb-6">
                             <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="message">
-                                Message
+                                Message<FontAwesomeIcon icon={faAsterisk} className="w-2 h-2 text-red-700 mb-0.5" />
                             </label>
                             <textarea
                                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"

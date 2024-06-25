@@ -22,7 +22,7 @@ const ProjectCard = ({ image, name, description, techStack = [], githubLink, liv
                         ))}
                         {liveLink && (
                             <a href={liveLink} target="_blank" rel="noopener noreferrer">
-                                <img src={LinkImage} alt="Live Link" className="w-5 h-5 mr-4 mb-1 transition transform hover:scale-105"/>
+                                <img src={LinkImage} alt="Live Link" className="w-5 h-5 mr-6 mb-1 transition transform hover:scale-105"/>
                             </a>
                         )}
                         <a href={githubLink} target="_blank" rel="noopener noreferrer">
